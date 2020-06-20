@@ -11,8 +11,13 @@ from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://drive.google.com/uc?export=download&id=1r2BpsDxPdI4-_2TwX2-Gi99XiNOcIaSa'
 export_file_name = 'clothes_export.pkl'
-
 classes = ['jeans','trousers','jacket', 'shorts', 'tshirt', 'buttonup']
+
+# Zoe's Skyline Detecting Model
+#export_file_url = 'https://drive.google.com/uc?export=download&id=14WddrtgiPLV-2zMTdakhusnncRsJqG1E' 
+#export_file_name = 'export.pkl'
+#classes = ['hong_kong', 'new_york', 'shanghai']
+
 path = Path(__file__).parent
 
 app = Starlette()
